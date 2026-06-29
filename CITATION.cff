@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code in academic work, please cite the paper below."
+title: "Heads, Not Backbones: Output Heads Dominate Architectures on Fat-Tailed Returns"
+type: software
+date-released: 2026-06-01
+license: MIT
+authors:
+  - family-names: "He"
+    given-names: "Sichao"
+    affiliation: "Research"
+repository-code: "https://github.com/Routhleck/heads-not-backbones"
+keywords:
+  - time-series
+  - density-forecasting
+  - mixture-density
+  - fat-tailed-returns
+  - CRPS
+  - walk-forward
+preferred-citation:
+  type: article
+  title: "Heads, Not Backbones: Output Heads Dominate Architectures on Fat-Tailed Returns"
+  author:
+    - family-names: "He"
+      given-names: "Sichao"
+  year: 2026
+  journal: "arXiv preprint"
+  url: "https://arxiv.org/abs/2606.XXXXX"

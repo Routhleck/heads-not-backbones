@@ -1,0 +1,259 @@
+{
+  "config": {
+    "rolling_window_months": 360,
+    "rolling_step_months": 60,
+    "vol_window_months": 12,
+    "period_bins_months": [
+      60,
+      120
+    ],
+    "series_used": "SP500_Return"
+  },
+  "summary_by_bin": [
+    {
+      "period_bin": "<60m\n(short)",
+      "count": 20,
+      "vol_mean": 0.0344,
+      "vol_std": 0.0061,
+      "vol_median": 0.0319,
+      "absret_mean": 0.029
+    },
+    {
+      "period_bin": "60-120m\n(medium)",
+      "count": 5,
+      "vol_mean": 0.0377,
+      "vol_std": 0.0097,
+      "vol_median": 0.032,
+      "absret_mean": 0.0314
+    },
+    {
+      "period_bin": ">120m\n(long)",
+      "count": 0,
+      "vol_mean": NaN,
+      "vol_std": NaN,
+      "vol_median": NaN,
+      "absret_mean": NaN
+    }
+  ],
+  "tests": {
+    "kruskal_wallis_3bins": {
+      "H": 0.29538461538462,
+      "p_value": 0.5867904254454375,
+      "n_windows": 25
+    },
+    "mann_whitney_short_vs_long": {
+      "U": null,
+      "p_value": null,
+      "alternative": "short > long",
+      "n_short": 20,
+      "n_long": 0
+    },
+    "spearman_log_period_vs_vol": {
+      "rho": -0.006923076923076924,
+      "p_value": 0.9737994035133074,
+      "n": 25
+    }
+  },
+  "per_window": [
+    {
+      "start": "1871-02-28",
+      "end": "1901-01-31",
+      "sp_top_period_months": 112.61359641524095,
+      "vol_12m": 0.028577605997857816,
+      "abs_return_mean": 0.023815814086858636,
+      "period_bin": "60-120m (medium)"
+    },
+    {
+      "start": "1876-02-29",
+      "end": "1906-01-31",
+      "sp_top_period_months": 38.883165432801285,
+      "vol_12m": 0.029808598965375827,
+      "abs_return_mean": 0.02547292553467774,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1881-02-28",
+      "end": "1911-01-31",
+      "sp_top_period_months": 39.20857121055223,
+      "vol_12m": 0.030219042780808846,
+      "abs_return_mean": 0.025762249663316174,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1886-02-28",
+      "end": "1916-01-31",
+      "sp_top_period_months": 40.798948312450946,
+      "vol_12m": 0.029900466380549804,
+      "abs_return_mean": 0.02538088758689648,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1891-02-28",
+      "end": "1921-01-31",
+      "sp_top_period_months": 41.46379935545541,
+      "vol_12m": 0.031702792127606176,
+      "abs_return_mean": 0.027143070647288464,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1896-02-29",
+      "end": "1926-01-31",
+      "sp_top_period_months": 41.14362853271552,
+      "vol_12m": 0.031938646024716875,
+      "abs_return_mean": 0.027517719015314187,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1901-02-28",
+      "end": "1931-01-31",
+      "sp_top_period_months": 40.425981221114746,
+      "vol_12m": 0.03384570441341063,
+      "abs_return_mean": 0.029392365469464395,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1906-02-28",
+      "end": "1936-01-31",
+      "sp_top_period_months": 41.302798490577494,
+      "vol_12m": 0.04386883446315241,
+      "abs_return_mean": 0.03652554163634729,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1911-02-28",
+      "end": "1941-01-31",
+      "sp_top_period_months": 34.194165918794475,
+      "vol_12m": 0.0473208980528927,
+      "abs_return_mean": 0.0382615865548591,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1916-02-29",
+      "end": "1946-01-31",
+      "sp_top_period_months": 40.9107773309367,
+      "vol_12m": 0.048336694277504345,
+      "abs_return_mean": 0.03979882417731802,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1921-02-28",
+      "end": "1951-01-31",
+      "sp_top_period_months": 97.77362423816781,
+      "vol_12m": 0.048574500512055196,
+      "abs_return_mean": 0.039650885585411515,
+      "period_bin": "60-120m (medium)"
+    },
+    {
+      "start": "1926-02-28",
+      "end": "1956-01-31",
+      "sp_top_period_months": 103.90244632201504,
+      "vol_12m": 0.048029394101358244,
+      "abs_return_mean": 0.03951183053678083,
+      "period_bin": "60-120m (medium)"
+    },
+    {
+      "start": "1931-02-28",
+      "end": "1961-01-31",
+      "sp_top_period_months": 37.675935305310226,
+      "vol_12m": 0.04426993641830221,
+      "abs_return_mean": 0.03665927462412377,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1936-02-29",
+      "end": "1966-01-31",
+      "sp_top_period_months": 26.8852090259146,
+      "vol_12m": 0.03396557470492769,
+      "abs_return_mean": 0.028599896700856428,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1941-02-28",
+      "end": "1971-01-31",
+      "sp_top_period_months": 30.881169328963665,
+      "vol_12m": 0.029748692065913598,
+      "abs_return_mean": 0.026189570232499123,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1946-02-28",
+      "end": "1976-01-31",
+      "sp_top_period_months": 51.008511285224536,
+      "vol_12m": 0.03134704314594063,
+      "abs_return_mean": 0.027015308994187054,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1951-02-28",
+      "end": "1981-01-31",
+      "sp_top_period_months": 50.15115253926922,
+      "vol_12m": 0.030045222473049735,
+      "abs_return_mean": 0.02597748368752509,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1956-02-29",
+      "end": "1986-01-31",
+      "sp_top_period_months": 29.145460111583738,
+      "vol_12m": 0.03141398987572507,
+      "abs_return_mean": 0.02625179517828867,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1961-02-28",
+      "end": "1991-01-31",
+      "sp_top_period_months": 13.188827029329445,
+      "vol_12m": 0.03282357777808907,
+      "abs_return_mean": 0.027395959798496024,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1966-02-28",
+      "end": "1996-01-31",
+      "sp_top_period_months": 13.092803386038678,
+      "vol_12m": 0.031988666979380555,
+      "abs_return_mean": 0.02636779239292419,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1971-02-28",
+      "end": "2001-01-31",
+      "sp_top_period_months": 13.075087006049406,
+      "vol_12m": 0.031903999004760576,
+      "abs_return_mean": 0.026705769403304016,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1976-02-29",
+      "end": "2006-01-31",
+      "sp_top_period_months": 25.091686052620847,
+      "vol_12m": 0.031095864858590002,
+      "abs_return_mean": 0.025945092593278728,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1981-02-28",
+      "end": "2011-01-31",
+      "sp_top_period_months": 24.652062813334854,
+      "vol_12m": 0.033066960887847066,
+      "abs_return_mean": 0.027803674584312797,
+      "period_bin": "<60m (short)"
+    },
+    {
+      "start": "1986-02-28",
+      "end": "2016-01-31",
+      "sp_top_period_months": 88.49458451600972,
+      "vol_12m": 0.03198198652232813,
+      "abs_return_mean": 0.027241296859310038,
+      "period_bin": "60-120m (medium)"
+    },
+    {
+      "start": "1991-02-28",
+      "end": "2021-01-31",
+      "sp_top_period_months": 90.09663276224263,
+      "vol_12m": 0.031452945620816165,
+      "abs_return_mean": 0.026559258363078965,
+      "period_bin": "60-120m (medium)"
+    }
+  ]
+}

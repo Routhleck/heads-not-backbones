@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Mavis daemon scratch
+.mavis/
+
+# LaTeX page-render debug PNGs (not paper figures)
+paper/wpn_acm/body-*.png
+paper/wpn_acm/refchk-*.png
+paper/wpn_acm/refpg-*.png
+
+# Large auxiliary results (re-generable from raw JSONs)
+results/*.npz

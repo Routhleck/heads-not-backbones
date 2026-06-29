@@ -1,0 +1,50 @@
+{
+  "config": {
+    "INITIAL_TRAIN_FRACS": [0.4, 0.5, 0.6, 0.7],
+    "HORIZONS": [1, 3, 6, 12],
+    "SEEDS": [0, 1, 2],
+    "EPOCHS": 80
+  },
+  "per_init_train_frac": {
+    "0.40": {
+      "init_train_frac": 0.4,
+      "n_folds": 6,
+      "crps_ss_per_horizon": {
+        "1": {"crps_point_mean": 0.02269113277898828, "crps_gmm_mean": 0.021839295306967363, "crps_ss": 0.03754054415519123, "crps_ss_pct": 3.754054415519123, "n_cells": 18},
+        "3": {"crps_point_mean": 0.022799955239436162, "crps_gmm_mean": 0.02220347161508269, "crps_ss": 0.02616161383166928, "crps_ss_pct": 2.616161383166928, "n_cells": 18},
+        "6": {"crps_point_mean": 0.022501102684933407, "crps_gmm_mean": 0.021924522705376148, "crps_ss": 0.025624521057065044, "crps_ss_pct": 2.5624521057065044, "n_cells": 18},
+        "12": {"crps_point_mean": 0.021917641171237612, "crps_gmm_mean": 0.021405480181177456, "crps_ss": 0.023367523268528652, "crps_ss_pct": 2.3367523268528654, "n_cells": 18}
+      }
+    },
+    "0.50": {
+      "init_train_frac": 0.5,
+      "n_folds": 5,
+      "crps_ss_per_horizon": {
+        "1": {"crps_point_mean": 0.019411404138144253, "crps_gmm_mean": 0.018382892136772473, "crps_ss": 0.05298493576519326, "crps_ss_pct": 5.298493576519326, "n_cells": 15},
+        "3": {"crps_point_mean": 0.019436539743153843, "crps_gmm_mean": 0.018680996944506964, "crps_ss": 0.03887228944200343, "crps_ss_pct": 3.887228944200343, "n_cells": 15},
+        "6": {"crps_point_mean": 0.019302090043473424, "crps_gmm_mean": 0.018579648186763126, "crps_ss": 0.0374281673685682, "crps_ss_pct": 3.7428167368568204, "n_cells": 15},
+        "12": {"crps_point_mean": 0.019145514929931075, "crps_gmm_mean": 0.018496728191773098, "crps_ss": 0.03388713965293767, "crps_ss_pct": 3.388713965293767, "n_cells": 15}
+      }
+    },
+    "0.60": {
+      "init_train_frac": 0.6,
+      "n_folds": 4,
+      "crps_ss_per_horizon": {
+        "1": {"crps_point_mean": 0.019544966470311398, "crps_gmm_mean": 0.018503114115446806, "crps_ss": 0.05330540507435277, "crps_ss_pct": 5.330540507435277, "n_cells": 12},
+        "3": {"crps_point_mean": 0.019605582682787715, "crps_gmm_mean": 0.018844634139289457, "crps_ss": 0.03881285018712122, "crps_ss_pct": 3.8812850187121217, "n_cells": 12},
+        "6": {"crps_point_mean": 0.019463620750806387, "crps_gmm_mean": 0.018750999278078478, "crps_ss": 0.03661299620721313, "crps_ss_pct": 3.661299620721313, "n_cells": 12},
+        "12": {"crps_point_mean": 0.01926402592240724, "crps_gmm_mean": 0.0186257582778732, "crps_ss": 0.03313261968733293, "crps_ss_pct": 3.313261968733293, "n_cells": 12}
+      }
+    },
+    "0.70": {
+      "init_train_frac": 0.7,
+      "n_folds": 3,
+      "crps_ss_per_horizon": {
+        "1": {"crps_point_mean": 0.020279869872670428, "crps_gmm_mean": 0.019299885258078575, "crps_ss": 0.048323022817444224, "crps_ss_pct": 4.832302281744423, "n_cells": 9},
+        "3": {"crps_point_mean": 0.02033582965626561, "crps_gmm_mean": 0.01964721352689796, "crps_ss": 0.03386220975525747, "crps_ss_pct": 3.386220975525747, "n_cells": 9},
+        "6": {"crps_point_mean": 0.0202180938378199, "crps_gmm_mean": 0.0195700495193402, "crps_ss": 0.03205269120214843, "crps_ss_pct": 3.205269120214843, "n_cells": 9},
+        "12": {"crps_point_mean": 0.019895231763728167, "crps_gmm_mean": 0.01933300784892506, "crps_ss": 0.028259229220346124, "crps_ss_pct": 2.8259229220346125, "n_cells": 9}
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "h1": {
+    "mse_by_variant": {
+      "TimesNet_point": 0.0006866514376461983,
+      "DLinear_point": 0.0006974131314255599,
+      "NBEATS_point": 0.0006916597977383531,
+      "iTransformer_point": 0.0006943599084473533,
+      "TimesNet_gauss": 0.0006539893268791856,
+      "DLinear_gauss": 0.0006723121085359309,
+      "NBEATS_gauss": 0.0006584382625256385,
+      "iTransformer_gauss": 0.0006946686260699831,
+      "TimesNet_gmm": 0.0006486322602028145,
+      "DLinear_gmm": 0.0006600271677353744,
+      "NBEATS_gmm": 0.000652255715976887,
+      "iTransformer_gmm": 0.0006938934586618005
+    },
+    "spread_pct": 7.222960253990507,
+    "interpretation": "all 12 within \u00b17.2% \u2014 MCS likely includes all 12"
+  },
+  "h3": {
+    "mse_by_variant": {
+      "TimesNet_point": 0.0006898587056963278,
+      "DLinear_point": 0.0006935580980114652,
+      "NBEATS_point": 0.0006893387063822801,
+      "iTransformer_point": 0.0006905143101589022,
+      "TimesNet_gauss": 0.0006864503158071374,
+      "DLinear_gauss": 0.0007006692438656381,
+      "NBEATS_gauss": 0.0006670183497303146,
+      "iTransformer_gauss": 0.0006921165503931874,
+      "TimesNet_gmm": 0.0006779852679970811,
+      "DLinear_gmm": 0.0007031068659346273,
+      "NBEATS_gmm": 0.0006824873779414778,
+      "iTransformer_gmm": 0.0006900351670281234
+    },
+    "spread_pct": 5.2408920702328565,
+    "interpretation": "all 12 within \u00b15.2% \u2014 MCS likely includes all 12"
+  },
+  "h6": {
+    "mse_by_variant": {
+      "TimesNet_point": 0.0006824490431689605,
+      "DLinear_point": 0.0006783438677527535,
+      "NBEATS_point": 0.0006827732252901158,
+      "iTransformer_point": 0.0006817449850666674,
+      "TimesNet_gauss": 0.000684602013153801,
+      "DLinear_gauss": 0.0007023459581843781,
+      "NBEATS_gauss": 0.0006707208625872745,
+      "iTransformer_gauss": 0.0006815283603015944,
+      "TimesNet_gmm": 0.0006773381144104352,
+      "DLinear_gmm": 0.0007029465974002156,
+      "NBEATS_gmm": 0.0006726931212964051,
+      "iTransformer_gmm": 0.0006840801678723258
+    },
+    "spread_pct": 4.715060548593257,
+    "interpretation": "all 12 within \u00b14.7% \u2014 MCS likely includes all 12"
+  },
+  "h12": {
+    "mse_by_variant": {
+      "TimesNet_point": 0.0006733827499117897,
+      "DLinear_point": 0.0006743893765316037,
+      "NBEATS_point": 0.0006749439697511017,
+      "iTransformer_point": 0.0006737294584323345,
+      "TimesNet_gauss": 0.0006827202434318682,
+      "DLinear_gauss": 0.0007010342762915536,
+      "NBEATS_gauss": 0.0006655525257470248,
+      "iTransformer_gauss": 0.0006749952154448246,
+      "TimesNet_gmm": 0.0006766261639730036,
+      "DLinear_gmm": 0.0006945511125801719,
+      "NBEATS_gmm": 0.0006662927909426639,
+      "iTransformer_gmm": 0.0006747661112819324
+    },
+    "spread_pct": 5.2352372368089375,
+    "interpretation": "all 12 within \u00b15.2% \u2014 MCS likely includes all 12"
+  }
+}

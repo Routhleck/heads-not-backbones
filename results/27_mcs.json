@@ -1,0 +1,135 @@
+{
+  "config": {
+    "VARIANTS": [
+      "TimesNet_point",
+      "TimesNet_gmm",
+      "DLinear_point",
+      "DLinear_gmm",
+      "NBEATS_point",
+      "NBEATS_gmm",
+      "iTransformer_point",
+      "iTransformer_gmm"
+    ],
+    "HORIZONS": [
+      1,
+      3,
+      6,
+      12
+    ],
+    "SEEDS": [
+      0,
+      1,
+      2
+    ],
+    "EPOCHS": 80,
+    "n_folds": 5,
+    "alpha": 0.1,
+    "n_boot": 2000
+  },
+  "mcs_per_horizon": {
+    "h1": {
+      "T_observations": 1920,
+      "alpha": 0.1,
+      "MCS_models": [
+        "TimesNet_point",
+        "TimesNet_gmm",
+        "DLinear_point",
+        "DLinear_gmm",
+        "NBEATS_point",
+        "NBEATS_gmm",
+        "iTransformer_point",
+        "iTransformer_gmm"
+      ],
+      "MCS_size": 8,
+      "per_model_pvals": {
+        "TimesNet_point": null,
+        "TimesNet_gmm": null,
+        "DLinear_point": null,
+        "DLinear_gmm": null,
+        "NBEATS_point": null,
+        "NBEATS_gmm": null,
+        "iTransformer_point": null,
+        "iTransformer_gmm": null
+      },
+      "drop_order": []
+    },
+    "h3": {
+      "T_observations": 1920,
+      "alpha": 0.1,
+      "MCS_models": [
+        "TimesNet_point",
+        "TimesNet_gmm",
+        "DLinear_point",
+        "DLinear_gmm",
+        "NBEATS_point",
+        "NBEATS_gmm",
+        "iTransformer_point",
+        "iTransformer_gmm"
+      ],
+      "MCS_size": 8,
+      "per_model_pvals": {
+        "TimesNet_point": null,
+        "TimesNet_gmm": null,
+        "DLinear_point": null,
+        "DLinear_gmm": null,
+        "NBEATS_point": null,
+        "NBEATS_gmm": null,
+        "iTransformer_point": null,
+        "iTransformer_gmm": null
+      },
+      "drop_order": []
+    },
+    "h6": {
+      "T_observations": 1920,
+      "alpha": 0.1,
+      "MCS_models": [
+        "TimesNet_point",
+        "TimesNet_gmm",
+        "DLinear_point",
+        "DLinear_gmm",
+        "NBEATS_point",
+        "NBEATS_gmm",
+        "iTransformer_point",
+        "iTransformer_gmm"
+      ],
+      "MCS_size": 8,
+      "per_model_pvals": {
+        "TimesNet_point": null,
+        "TimesNet_gmm": null,
+        "DLinear_point": null,
+        "DLinear_gmm": null,
+        "NBEATS_point": null,
+        "NBEATS_gmm": null,
+        "iTransformer_point": null,
+        "iTransformer_gmm": null
+      },
+      "drop_order": []
+    },
+    "h12": {
+      "T_observations": 1920,
+      "alpha": 0.1,
+      "MCS_models": [
+        "TimesNet_point",
+        "TimesNet_gmm",
+        "DLinear_point",
+        "DLinear_gmm",
+        "NBEATS_point",
+        "NBEATS_gmm",
+        "iTransformer_point",
+        "iTransformer_gmm"
+      ],
+      "MCS_size": 8,
+      "per_model_pvals": {
+        "TimesNet_point": null,
+        "TimesNet_gmm": null,
+        "DLinear_point": null,
+        "DLinear_gmm": null,
+        "NBEATS_point": null,
+        "NBEATS_gmm": null,
+        "iTransformer_point": null,
+        "iTransformer_gmm": null
+      },
+      "drop_order": []
+    }
+  }
+}

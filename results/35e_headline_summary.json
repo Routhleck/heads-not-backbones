@@ -1,0 +1,110 @@
+{
+  "TimesNet_point": {
+    "backbone": "TimesNet",
+    "head": "point",
+    "mean_crps_ss_pct": 0.0,
+    "std_crps_ss_pct": 0.0,
+    "min_crps_ss_pct": 0.0,
+    "max_crps_ss_pct": 0.0,
+    "mean_cov90": 0.9627278645833334
+  },
+  "DLinear_point": {
+    "backbone": "DLinear",
+    "head": "point",
+    "mean_crps_ss_pct": -0.1549695577935356,
+    "std_crps_ss_pct": 0.28116281262643744,
+    "min_crps_ss_pct": -0.5845895451132899,
+    "max_crps_ss_pct": 0.19144030590917405,
+    "mean_cov90": 0.9629231770833333
+  },
+  "NBEATS_point": {
+    "backbone": "NBEATS",
+    "head": "point",
+    "mean_crps_ss_pct": -0.0994763016760214,
+    "std_crps_ss_pct": 0.13011629261980093,
+    "min_crps_ss_pct": -0.3183851248817815,
+    "max_crps_ss_pct": 0.008797404080218563,
+    "mean_cov90": 0.962890625
+  },
+  "iTransformer_point": {
+    "backbone": "iTransformer",
+    "head": "point",
+    "mean_crps_ss_pct": -0.112933598883172,
+    "std_crps_ss_pct": 0.18630768390644106,
+    "min_crps_ss_pct": -0.43296501473484295,
+    "max_crps_ss_pct": 0.032198182525433605,
+    "mean_cov90": 0.9626953125000001
+  },
+  "TimesNet_gauss": {
+    "backbone": "TimesNet",
+    "head": "gauss",
+    "mean_crps_ss_pct": 1.0679858954990435,
+    "std_crps_ss_pct": 1.126393611840633,
+    "min_crps_ss_pct": -0.22707490623461446,
+    "max_crps_ss_pct": 2.8681435391985644,
+    "mean_cov90": 0.9558268229166669
+  },
+  "DLinear_gauss": {
+    "backbone": "DLinear",
+    "head": "gauss",
+    "mean_crps_ss_pct": 0.4604102314219649,
+    "std_crps_ss_pct": 0.8982837334642667,
+    "min_crps_ss_pct": -0.7471013605420351,
+    "max_crps_ss_pct": 1.7631395887590329,
+    "mean_cov90": 0.9286783854166667
+  },
+  "NBEATS_gauss": {
+    "backbone": "NBEATS",
+    "head": "gauss",
+    "mean_crps_ss_pct": 3.5873994624070202,
+    "std_crps_ss_pct": 0.5866254038117436,
+    "min_crps_ss_pct": 2.84235147970624,
+    "max_crps_ss_pct": 4.169138139256501,
+    "mean_cov90": 0.9099609375000001
+  },
+  "iTransformer_gauss": {
+    "backbone": "iTransformer",
+    "head": "gauss",
+    "mean_crps_ss_pct": -0.3781807940046622,
+    "std_crps_ss_pct": 0.3344338206942021,
+    "min_crps_ss_pct": -0.90222923135721,
+    "max_crps_ss_pct": 0.025343932411647785,
+    "mean_cov90": 0.9647786458333333
+  },
+  "TimesNet_gmm": {
+    "backbone": "TimesNet",
+    "head": "gmm",
+    "mean_crps_ss_pct": 4.158843136306825,
+    "std_crps_ss_pct": 0.7820306870732322,
+    "min_crps_ss_pct": 3.3689671568545854,
+    "max_crps_ss_pct": 5.437121557465174,
+    "mean_cov90": 0.9204427083333332
+  },
+  "DLinear_gmm": {
+    "backbone": "DLinear",
+    "head": "gmm",
+    "mean_crps_ss_pct": 2.3525348774208616,
+    "std_crps_ss_pct": 0.7003085694524006,
+    "min_crps_ss_pct": 1.8111569356518253,
+    "max_crps_ss_pct": 3.5545827313803957,
+    "mean_cov90": 0.9060546875
+  },
+  "NBEATS_gmm": {
+    "backbone": "NBEATS",
+    "head": "gmm",
+    "mean_crps_ss_pct": 4.840867726156647,
+    "std_crps_ss_pct": 0.9346655299994473,
+    "min_crps_ss_pct": 4.068480768168559,
+    "max_crps_ss_pct": 6.424382800885342,
+    "mean_cov90": 0.9034505208333333
+  },
+  "iTransformer_gmm": {
+    "backbone": "iTransformer",
+    "head": "gmm",
+    "mean_crps_ss_pct": 3.0219310524829126,
+    "std_crps_ss_pct": 0.3047740714705434,
+    "min_crps_ss_pct": 2.573780029957007,
+    "max_crps_ss_pct": 3.394628497492558,
+    "mean_cov90": 0.92861328125
+  }
+}

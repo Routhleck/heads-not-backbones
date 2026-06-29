@@ -1,0 +1,235 @@
+{
+  "config": {
+    "horizons": [
+      1,
+      3,
+      6,
+      12
+    ],
+    "n_mixtures_gmm": 4,
+    "n_samples": 500,
+    "init_train_frac": 0.5,
+    "test_frac": 0.07,
+    "step_frac": 0.1
+  },
+  "results": {
+    "ARIMA": {
+      "h1": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.01728432380968789,
+          "crps_std": 0.008472492822967937,
+          "pinball_mean": 0.0057985785740932525,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.10629696641605624
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.01788277348038088,
+          "crps_std": 0.009410694451247427,
+          "pinball_mean": 0.005990018654277502,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.07535353512915455
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.017887999906407027,
+          "crps_std": 0.009392047000431699,
+          "pinball_mean": 0.005780223275635063,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.07508329760955013
+        }
+      },
+      "h3": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.018082940525443035,
+          "crps_std": 0.012440707042385125,
+          "pinball_mean": 0.0061561390783036575,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.06781270171770992
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.017726873127797603,
+          "crps_std": 0.011972021195880169,
+          "pinball_mean": 0.006036743733977128,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.08616820672810799
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.01934817361845411,
+          "crps_std": 0.012476831486615006,
+          "pinball_mean": 0.0063157631789518805,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": 0.002589116150315318
+        }
+      },
+      "h6": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.02715442470575819,
+          "crps_std": 0.023597392677013846,
+          "pinball_mean": 0.009533047947677209,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.4069859494450636
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.02740962446307077,
+          "crps_std": 0.024959319968508736,
+          "pinball_mean": 0.00970021161535177,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.4202089315826467
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.027115344108302443,
+          "crps_std": 0.024059380300279036,
+          "pinball_mean": 0.00888988210185557,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.404961017887427
+        }
+      },
+      "h12": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.02647445730556968,
+          "crps_std": 0.01193316442462707,
+          "pinball_mean": 0.008117390599260388,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": -0.3846102327928649
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.0261245627051405,
+          "crps_std": 0.011904647179763608,
+          "pinball_mean": 0.008055717860638925,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.36631079652637366
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.02786021535720549,
+          "crps_std": 0.013790316333010718,
+          "pinball_mean": 0.008404558284041491,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": -0.45708517557729667
+        }
+      }
+    },
+    "GARCH": {
+      "h1": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.01605146822734705,
+          "crps_std": 0.008968403456082637,
+          "pinball_mean": 0.005331378471706798,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.17004298194090683
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.01652574752812208,
+          "crps_std": 0.009721209811702818,
+          "pinball_mean": 0.005569210468945032,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": 0.14551990226849643
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.016840451074927203,
+          "crps_std": 0.010506758717369315,
+          "pinball_mean": 0.005569153253239208,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.12924784456140104
+        }
+      },
+      "h3": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.01628823490106042,
+          "crps_std": 0.011559129924378308,
+          "pinball_mean": 0.00530969202359864,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.16033093927156994
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.016152788502713223,
+          "crps_std": 0.011581277433994163,
+          "pinball_mean": 0.005331245348248097,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.16731328884904528
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.01739404846916629,
+          "crps_std": 0.012314581243384078,
+          "pinball_mean": 0.005444242429576645,
+          "cov90_mean": 1.0,
+          "crps_skill_score_vs_TimesNet_point": 0.10332553348559603
+        }
+      },
+      "h6": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.027574998165148717,
+          "crps_std": 0.025746305095714288,
+          "pinball_mean": 0.009840856793251293,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.42877764470224555
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.02863681280560094,
+          "crps_std": 0.02648665314482239,
+          "pinball_mean": 0.010437834216178938,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.4837947660818982
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.029050120601921504,
+          "crps_std": 0.02743213731264316,
+          "pinball_mean": 0.010482034041356735,
+          "cov90_mean": 0.6,
+          "crps_skill_score_vs_TimesNet_point": -0.5052099965101025
+        }
+      },
+      "h12": {
+        "point": {
+          "n_folds": 5,
+          "crps_mean": 0.026678536142327635,
+          "crps_std": 0.013706549831734239,
+          "pinball_mean": 0.008531514564276333,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.3952835260131977
+        },
+        "gauss": {
+          "n_folds": 5,
+          "crps_mean": 0.026508280418908608,
+          "crps_std": 0.013638447525064918,
+          "pinball_mean": 0.008572359828832223,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.3863791766580196
+        },
+        "gmm": {
+          "n_folds": 5,
+          "crps_mean": 0.026575590601339315,
+          "crps_std": 0.014084797278642206,
+          "pinball_mean": 0.008134179026882843,
+          "cov90_mean": 0.8,
+          "crps_skill_score_vs_TimesNet_point": -0.3898994893235075
+        }
+      }
+    }
+  },
+  "baseline_crps_TimesNet_point": {
+    "h1": 0.019340119883418085,
+    "h3": 0.019398398324847223,
+    "h6": 0.019299712777137757,
+    "h12": 0.019120512530207634
+  }
+}

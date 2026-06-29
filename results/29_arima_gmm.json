@@ -1,0 +1,17 @@
+{
+  "config": {
+    "INITIAL_TRAIN_FRAC": 0.5,
+    "TEST_FRAC": 0.07,
+    "STEP_FRAC": 0.1,
+    "N_MIXTURES": 4,
+    "N_SAMPLES": 500,
+    "ARIMA_p_range": [0, 1, 2],
+    "ARIMA_q_range": [0, 1, 2]
+  },
+  "per_horizon": {
+    "h1": {"n_folds": 5, "crps_mean": 0.018859653492004864, "crps_std": 0.0015272065808180425, "pinball_mean": 0.0064502970788598585, "cov90_mean": 0.93125, "arima_orders": [[2, 0], [2, 0], [2, 0], [2, 0], [2, 0]]},
+    "h3": {"n_folds": 5, "crps_mean": 0.018859653492004864, "crps_std": 0.0015272065808180425, "pinball_mean": 0.0064502970788598585, "cov90_mean": 0.93125, "arima_orders": [[2, 0], [2, 0], [2, 0], [2, 0], [2, 0]]},
+    "h6": {"n_folds": 5, "crps_mean": 0.018859653492004864, "crps_std": 0.0015272065808180425, "pinball_mean": 0.0064502970788598585, "cov90_mean": 0.93125, "arima_orders": [[2, 0], [2, 0], [2, 0], [2, 0], [2, 0]]},
+    "h12": {"n_folds": 5, "crps_mean": 0.018859653492004864, "crps_std": 0.0015272065808180425, "pinball_mean": 0.0064502970788598585, "cov90_mean": 0.93125, "arima_orders": [[2, 0], [2, 0], [2, 0], [2, 0], [2, 0]]}
+  }
+}

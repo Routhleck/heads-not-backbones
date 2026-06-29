@@ -1,0 +1,53 @@
+{
+  "config": {
+    "backbones": [
+      "TimesNet",
+      "DLinear",
+      "NBEATS",
+      "PatchTST"
+    ],
+    "horizons": [
+      1,
+      3,
+      6,
+      12
+    ],
+    "data": "monthly S&P 500 (Shiller), n=1832, walk-forward 5 folds"
+  },
+  "tail_pinball_improvement": {
+    "q0.01_point_to_gmm_mean": -0.03535500456139881,
+    "q0.01_gauss_to_gmm_mean": -0.037085197678209454,
+    "q0.05_point_to_gmm_mean": 0.0629113304553526,
+    "q0.05_gauss_to_gmm_mean": 0.02668138759097744
+  },
+  "calibration_95pct_CI_error": {
+    "point": {
+      "h1": 0.025390625000000028,
+      "h3": 0.025781249999999922,
+      "h6": 0.026302083333333365,
+      "h12": 0.027799479166666696
+    },
+    "gauss": {
+      "h1": 0.01679687499999999,
+      "h3": 0.014453125000000039,
+      "h6": 0.019335937500000067,
+      "h12": 0.02213541666666663
+    },
+    "gmm": {
+      "h1": 0.009765625,
+      "h3": 0.009375000000000022,
+      "h6": 0.012174479166666696,
+      "h12": 0.015592447916666669
+    }
+  },
+  "regime_alpha": {
+    "crisis_gmm_vs_point_mean": 4.150756462166707,
+    "calm_gmm_vs_point_mean": 4.158413380384445,
+    "alpha_crisis_minus_calm": -0.007656918217738173
+  },
+  "deep_vs_garch_gap_h1": 5.048392702047,
+  "honest_negatives": {
+    "q0.01_gmm_loses": true,
+    "explanation": "K=4 GMM bounded tails, not 1% VaR-adequate"
+  }
+}

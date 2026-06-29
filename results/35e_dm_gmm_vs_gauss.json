@@ -1,0 +1,106 @@
+{
+  "h1": {
+    "TimesNet": {
+      "gauss_crps": 0.018785418570041658,
+      "gmm_crps": 0.01828857511281967,
+      "crps_ss_gmm_vs_gauss_pct": 2.6448357025929417,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "DLinear": {
+      "gauss_crps": 0.01899912767112255,
+      "gmm_crps": 0.01865266039967537,
+      "crps_ss_gmm_vs_gauss_pct": 1.823595679994236,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "NBEATS": {
+      "gauss_crps": 0.01853380464017391,
+      "gmm_crps": 0.018097637593746184,
+      "crps_ss_gmm_vs_gauss_pct": 2.3533594687962283,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "iTransformer": {
+      "gauss_crps": 0.019514613226056098,
+      "gmm_crps": 0.01884234882891178,
+      "crps_ss_gmm_vs_gauss_pct": 3.444928112880569,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    }
+  },
+  "h3": {
+    "TimesNet": {
+      "gauss_crps": 0.019216562062501906,
+      "gmm_crps": 0.01860295832157135,
+      "crps_ss_gmm_vs_gauss_pct": 3.1930984269444753,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "DLinear": {
+      "gauss_crps": 0.019282570108771324,
+      "gmm_crps": 0.018995972722768782,
+      "crps_ss_gmm_vs_gauss_pct": 1.4863028340406423,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "NBEATS": {
+      "gauss_crps": 0.018592656776309013,
+      "gmm_crps": 0.018504050374031068,
+      "crps_ss_gmm_vs_gauss_pct": 0.47656665394290737,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "iTransformer": {
+      "gauss_crps": 0.019452992454171182,
+      "gmm_crps": 0.018828216195106506,
+      "crps_ss_gmm_vs_gauss_pct": 3.2117231348162565,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    }
+  },
+  "h6": {
+    "TimesNet": {
+      "gauss_crps": 0.019165869802236557,
+      "gmm_crps": 0.01858007684350014,
+      "crps_ss_gmm_vs_gauss_pct": 3.0564381621128374,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "DLinear": {
+      "gauss_crps": 0.019255612790584565,
+      "gmm_crps": 0.018950164690613745,
+      "crps_ss_gmm_vs_gauss_pct": 1.5862808589512918,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "NBEATS": {
+      "gauss_crps": 0.018685121461749075,
+      "gmm_crps": 0.018477509170770644,
+      "crps_ss_gmm_vs_gauss_pct": 1.111110202860825,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "iTransformer": {
+      "gauss_crps": 0.019294821470975877,
+      "gmm_crps": 0.01868598386645317,
+      "crps_ss_gmm_vs_gauss_pct": 3.1554456486604328,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    }
+  },
+  "h12": {
+    "TimesNet": {
+      "gauss_crps": 0.01916393041610718,
+      "gmm_crps": 0.018476348742842673,
+      "crps_ss_gmm_vs_gauss_pct": 3.5878948542131925,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "DLinear": {
+      "gauss_crps": 0.019263362139463426,
+      "gmm_crps": 0.018743863329291344,
+      "crps_ss_gmm_vs_gauss_pct": 2.6968231527341926,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "NBEATS": {
+      "gauss_crps": 0.01857704035937786,
+      "gmm_crps": 0.018342598155140877,
+      "crps_ss_gmm_vs_gauss_pct": 1.2619997572360029,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    },
+    "iTransformer": {
+      "gauss_crps": 0.019188275933265685,
+      "gmm_crps": 0.01847144216299057,
+      "crps_ss_gmm_vs_gauss_pct": 3.735790400180656,
+      "note": "DM test requires per-fold CRPS series; not computed in current pipeline"
+    }
+  }
+}

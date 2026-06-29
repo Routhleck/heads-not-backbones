@@ -1,0 +1,52 @@
+{
+  "config": {"EPOCHS": 80, "HORIZONS": [1, 3, 6, 12], "SEEDS": [0, 1, 2], "N_SAMPLES_CRPS": 500},
+  "regimes": [
+    {"label": "pre_wwii_great_depression", "start": "1929-09-30", "end": "1932-06-30"},
+    {"label": "high_vol_1970s", "start": "1973-01-31", "end": "1974-12-31"},
+    {"label": "dotcom_bust", "start": "2000-03-31", "end": "2002-10-31"},
+    {"label": "2008_gfc", "start": "2008-01-31", "end": "2009-06-30"},
+    {"label": "secular_bull", "start": "2010-07-31", "end": "2020-01-31"},
+    {"label": "covid_crash", "start": "2020-02-29", "end": "2020-04-30"}
+  ],
+  "per_regime_per_horizon": {
+    "high_vol_1970s": {
+      "horizons": {
+        "h1": {"n_windows": 15, "crps_point_mean": 0.014858702197670937, "crps_gmm_mean": 0.013000390492379665, "crps_ss_pct": 12.50655460357666, "date_range": ["1973-01-31", "1974-12-31"]},
+        "h3": {"n_windows": 144, "crps_point_mean": 0.02094983123242855, "crps_gmm_mean": 0.02137158066034317, "crps_ss_pct": -2.0131399631500244, "date_range": ["1973-01-31", "1974-12-31"]},
+        "h6": {"n_windows": 144, "crps_point_mean": 0.013868934474885464, "crps_gmm_mean": 0.012485828250646591, "crps_ss_pct": 9.97269344329834, "date_range": ["1973-01-31", "1974-12-31"]},
+        "h12": {"n_windows": 144, "crps_point_mean": 0.01432869490236044, "crps_gmm_mean": 0.01234963908791542, "crps_ss_pct": 13.811835289001465, "date_range": ["1973-01-31", "1974-12-31"]}
+      }
+    },
+    "dotcom_bust": {
+      "horizons": {
+        "h1": {"n_windows": 96, "crps_point_mean": 0.026069654151797295, "crps_gmm_mean": 0.026830649003386497, "crps_ss_pct": -2.9190831184387207, "date_range": ["2000-03-31", "2002-10-31"]},
+        "h3": {"n_windows": 192, "crps_point_mean": 0.017387205734848976, "crps_gmm_mean": 0.01597038470208645, "crps_ss_pct": 8.148641586303711, "date_range": ["2000-03-31", "2002-10-31"]},
+        "h6": {"n_windows": 384, "crps_point_mean": 0.01723766326904297, "crps_gmm_mean": 0.016939016059041023, "crps_ss_pct": 1.732527256011963, "date_range": ["2000-03-31", "2002-10-31"]},
+        "h12": {"n_windows": 384, "crps_point_mean": 0.018094561994075775, "crps_gmm_mean": 0.01756194420158863, "crps_ss_pct": 2.943524122238159, "date_range": ["2000-03-31", "2002-10-31"]}
+      }
+    },
+    "2008_gfc": {
+      "horizons": {
+        "h1": {"n_windows": 36, "crps_point_mean": 0.053186509758234024, "crps_gmm_mean": 0.050445929169654846, "crps_ss_pct": 5.152773857116699, "date_range": ["2008-01-31", "2009-06-30"]},
+        "h3": {"n_windows": 144, "crps_point_mean": 0.03120480291545391, "crps_gmm_mean": 0.03150666505098343, "crps_ss_pct": -0.9673579335212708, "date_range": ["2008-01-31", "2009-06-30"]},
+        "h6": {"n_windows": 252, "crps_point_mean": 0.02642419934272766, "crps_gmm_mean": 0.025911733508110046, "crps_ss_pct": 1.9393807649612427, "date_range": ["2008-01-31", "2009-06-30"]},
+        "h12": {"n_windows": 252, "crps_point_mean": 0.02213132195174694, "crps_gmm_mean": 0.021441107615828514, "crps_ss_pct": 3.1187217235565186, "date_range": ["2008-01-31", "2009-06-30"]}
+      }
+    },
+    "secular_bull": {
+      "horizons": {
+        "h1": {"n_windows": 312, "crps_point_mean": 0.015694664791226387, "crps_gmm_mean": 0.014475409872829914, "crps_ss_pct": 7.768594264984131, "date_range": ["2010-07-31", "2020-01-31"]},
+        "h3": {"n_windows": 690, "crps_point_mean": 0.022190138697624207, "crps_gmm_mean": 0.021864186972379684, "crps_ss_pct": 1.4689034223556519, "date_range": ["2010-07-31", "2020-01-31"]},
+        "h6": {"n_windows": 1416, "crps_point_mean": 0.020935310050845146, "crps_gmm_mean": 0.020260322839021683, "crps_ss_pct": 3.2241568565368652, "date_range": ["2010-07-31", "2020-01-31"]},
+        "h12": {"n_windows": 1725, "crps_point_mean": 0.020381323993206024, "crps_gmm_mean": 0.019531015306711197, "crps_ss_pct": 4.171998977661133, "date_range": ["2010-07-31", "2020-01-31"]}
+      }
+    },
+    "covid_crash": {
+      "horizons": {
+        "h3": {"n_windows": 18, "crps_point_mean": 0.022457750514149666, "crps_gmm_mean": 0.023046068847179413, "crps_ss_pct": -2.6196670532226562, "date_range": ["2020-02-29", "2020-04-30"]},
+        "h6": {"n_windows": 36, "crps_point_mean": 0.015747511759400368, "crps_gmm_mean": 0.01465215627104044, "crps_ss_pct": 6.955737113952637, "date_range": ["2020-02-29", "2020-04-30"]},
+        "h12": {"n_windows": 45, "crps_point_mean": 0.017702821642160416, "crps_gmm_mean": 0.016746390610933304, "crps_ss_pct": 5.402703762054443, "date_range": ["2020-02-29", "2020-04-30"]}
+      }
+    }
+  }
+}

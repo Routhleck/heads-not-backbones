@@ -1,0 +1,259 @@
+[
+  {
+    "label": "test1_zhoujintao_v2",
+    "long_wave_periods_months": [
+      720,
+      300
+    ],
+    "mid_cycle_periods_months": [
+      216,
+      84
+    ],
+    "T": 720,
+    "n_assets": 4,
+    "noise_std": 0.1,
+    "seed": 42,
+    "discovered_mid_periods_months": [
+      84.0192520062741,
+      208.6254140988035
+    ],
+    "mid_cycle_matches": [
+      {
+        "discovered": 84.0192520062741,
+        "discovered_years": 7.001604333856175,
+        "true": 84.0,
+        "true_years": 7.0,
+        "rel_err": 0.00022919055088221896
+      },
+      {
+        "discovered": 208.6254140988035,
+        "discovered_years": 17.385451174900293,
+        "true": 216.0,
+        "true_years": 18.0,
+        "rel_err": 0.034141601394428234
+      }
+    ],
+    "trend_recovery": {
+      "corr": 0.5906427815833876,
+      "rmse": 0.2633875877535344,
+      "nrmse": 0.2855716039592715,
+      "r2": 0.08347139027098738,
+      "passed": false
+    },
+    "max_mid_rel_err": 0.034141601394428234,
+    "mean_mid_rel_err": 0.017185395972655226,
+    "mid_cycles_pass_20pct": true,
+    "trend_pass": false,
+    "overall_pass": false
+  },
+  {
+    "label": "test2_kondratiev_v2",
+    "long_wave_periods_months": [
+      600
+    ],
+    "mid_cycle_periods_months": [
+      120,
+      48
+    ],
+    "T": 720,
+    "n_assets": 4,
+    "noise_std": 0.1,
+    "seed": 42,
+    "discovered_mid_periods_months": [
+      121.94503306681503,
+      47.812022896029646
+    ],
+    "mid_cycle_matches": [
+      {
+        "discovered": 47.812022896029646,
+        "discovered_years": 3.984335241335804,
+        "true": 48.0,
+        "true_years": 4.0,
+        "rel_err": 0.003916189666049008
+      },
+      {
+        "discovered": 121.94503306681503,
+        "discovered_years": 10.162086088901253,
+        "true": 120.0,
+        "true_years": 10.0,
+        "rel_err": 0.01620860889012521
+      }
+    ],
+    "trend_recovery": {
+      "corr": 0.20793674266454745,
+      "rmse": 0.6466300083032807,
+      "nrmse": 0.6466349578716915,
+      "r2": -2.419966362039103,
+      "passed": false
+    },
+    "max_mid_rel_err": 0.01620860889012521,
+    "mean_mid_rel_err": 0.010062399278087109,
+    "mid_cycles_pass_20pct": true,
+    "trend_pass": false,
+    "overall_pass": false
+  },
+  {
+    "label": "test3_high_noise_v2",
+    "long_wave_periods_months": [
+      720,
+      300
+    ],
+    "mid_cycle_periods_months": [
+      216,
+      84
+    ],
+    "T": 720,
+    "n_assets": 4,
+    "noise_std": 0.4,
+    "seed": 42,
+    "discovered_mid_periods_months": [
+      84.02591930932175,
+      208.57650453092594
+    ],
+    "mid_cycle_matches": [
+      {
+        "discovered": 84.02591930932175,
+        "discovered_years": 7.0021599424434795,
+        "true": 84.0,
+        "true_years": 7.0,
+        "rel_err": 0.00030856320621142075
+      },
+      {
+        "discovered": 208.57650453092594,
+        "discovered_years": 17.38137537757716,
+        "true": 216.0,
+        "true_years": 18.0,
+        "rel_err": 0.03436803457904658
+      }
+    ],
+    "trend_recovery": {
+      "corr": 0.5878678772220506,
+      "rmse": 0.2590637132030252,
+      "nrmse": 0.28088354784683606,
+      "r2": 0.11331657811599682,
+      "passed": false
+    },
+    "max_mid_rel_err": 0.03436803457904658,
+    "mean_mid_rel_err": 0.017338298892629,
+    "mid_cycles_pass_20pct": true,
+    "trend_pass": false,
+    "overall_pass": false
+  },
+  {
+    "label": "test4_negative_control_v2",
+    "long_wave_periods_months": [],
+    "mid_cycle_periods_months": [
+      144,
+      204,
+      264
+    ],
+    "T": 720,
+    "n_assets": 4,
+    "noise_std": 0.1,
+    "seed": 42,
+    "discovered_mid_periods_months": [
+      214.23220948157604,
+      146.10469524346766,
+      230.39999999999998
+    ],
+    "mid_cycle_matches": [
+      {
+        "discovered": 146.10469524346766,
+        "discovered_years": 12.175391270288971,
+        "true": 144.0,
+        "true_years": 12.0,
+        "rel_err": 0.014615939190747662
+      },
+      {
+        "discovered": 214.23220948157604,
+        "discovered_years": 17.85268412346467,
+        "true": 204.0,
+        "true_years": 17.0,
+        "rel_err": 0.050157889615568774
+      },
+      {
+        "discovered": 230.39999999999998,
+        "discovered_years": 19.2,
+        "true": 264.0,
+        "true_years": 22.0,
+        "rel_err": 0.12727272727272732
+      }
+    ],
+    "trend_recovery": {
+      "corr": NaN,
+      "rmse": 0.0,
+      "nrmse": NaN,
+      "r2": NaN,
+      "passed": true,
+      "note": "no long-wave component in signal"
+    },
+    "max_mid_rel_err": 0.12727272727272732,
+    "mean_mid_rel_err": 0.06401551869301458,
+    "mid_cycles_pass_20pct": true,
+    "trend_pass": true,
+    "overall_pass": true
+  },
+  {
+    "label": "test5_clean_ampd_v2",
+    "long_wave_periods_months": [],
+    "mid_cycle_periods_months": [
+      48,
+      84,
+      120,
+      216
+    ],
+    "T": 720,
+    "n_assets": 4,
+    "noise_std": 0.1,
+    "seed": 42,
+    "discovered_mid_periods_months": [
+      83.95421441599424,
+      48.08443723614707,
+      217.70328016669342,
+      119.3176062870257
+    ],
+    "mid_cycle_matches": [
+      {
+        "discovered": 48.08443723614707,
+        "discovered_years": 4.007036436345589,
+        "true": 48.0,
+        "true_years": 4.0,
+        "rel_err": 0.0017591090863973147
+      },
+      {
+        "discovered": 83.95421441599424,
+        "discovered_years": 6.996184534666187,
+        "true": 84.0,
+        "true_years": 7.0,
+        "rel_err": 0.0005450664762589597
+      },
+      {
+        "discovered": 119.3176062870257,
+        "discovered_years": 9.94313385725214,
+        "true": 120.0,
+        "true_years": 10.0,
+        "rel_err": 0.005686614274785895
+      },
+      {
+        "discovered": 217.70328016669342,
+        "discovered_years": 18.14194001389112,
+        "true": 216.0,
+        "true_years": 18.0,
+        "rel_err": 0.007885556327284382
+      }
+    ],
+    "trend_recovery": {
+      "corr": NaN,
+      "rmse": 0.0,
+      "nrmse": NaN,
+      "r2": NaN,
+      "passed": true,
+      "note": "no long-wave component in signal"
+    },
+    "max_mid_rel_err": 0.007885556327284382,
+    "mean_mid_rel_err": 0.003969086541181638,
+    "mid_cycles_pass_20pct": true,
+    "trend_pass": true,
+    "overall_pass": true
+  }
+]

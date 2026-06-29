@@ -1,0 +1,34 @@
+{
+  "config": {
+    "frtb_formula_proxy": "K_95 = pinball_0.05 + 1.5 * pinball_0.01 (linearized)",
+    "horizons": [
+      1,
+      3,
+      6,
+      12
+    ],
+    "data": "monthly S&P 500 (Shiller), n=1832, walk-forward 5 folds"
+  },
+  "pinball_0.05_bps_per_head_h1": {
+    "point": 46.89560737460852,
+    "gauss": 44.72737107425928,
+    "gmm": 42.73980809375644
+  },
+  "pinball_0.01_bps_per_head_h1": {
+    "point": 15.020828228443861,
+    "gauss": 14.519579708576202,
+    "gmm": 16.095586121082306
+  },
+  "frtb_cost_proxy_bps_h1": {
+    "point": 69.42684971727431,
+    "gauss": 66.50674063712358,
+    "gmm": 66.8831872753799
+  },
+  "savings_bps_point_to_gmm_h1": 2.543662441894412,
+  "savings_pct_point_to_gmm_h1": 3.663802192167615,
+  "classical_comparison_h1": {
+    "NBEATS_gmm": 65.22860960103571,
+    "CAViaR": 89.88314408101883,
+    "TimesNet_point": 69.42684971727431
+  }
+}

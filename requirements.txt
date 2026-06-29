@@ -1,0 +1,12 @@
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+scipy>=1.11
+joblib>=1.3
+matplotlib>=3.7
+yfinance>=0.2.30
+pandas-datareader>=0.10
+statsmodels>=0.14
+arch>=6.2
+tectonic>=0.15        # optional: only needed to rebuild paper/main_acm.pdf
