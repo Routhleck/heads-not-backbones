@@ -1,6 +1,6 @@
 # Heads, Not Backbones — Reproducibility Artifact
 
-> *Heads, Not Backbones: Output Heads Dominate Architectures on Fat-Tailed Returns* (arXiv:2606.XXXXX)
+> *Heads, Not Backbones: Output Heads Dominate Architectures on Fat-Tailed Returns* (arXiv:2606.30037)
 
 This is the reproducibility artifact for the paper. Every number in the
 paper can be regenerated from the committed data and scripts in this
@@ -18,7 +18,6 @@ experiments/         # 57 numbered experiment scripts, one per (panel, claim)
 results/             # 27 paper-canonical JSON outputs (proof of
                      # reproducibility — re-run and diff with these files)
 data/raw/            # Shiller monthly log-returns + daily panel CSVs (small)
-paper/               # main_acm.tex + main_acm.pdf (the paper itself)
 figures/             # all 5 figures referenced by \includegraphics (PDF + PNG)
 run_reproduce.sh     # one-shot driver that runs the headline protocol
 ```
